@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KC-Amazon">
+  <test name="Main Page">
+      <classes>
+      <class name="test.MainPageTesting"/>
+      </classes>
+  </test>
+   
+  <test name="Results Page">    
+    <!-- Lo dejo como ejemplo pa futuro <parameter name="emailid" value="tester789@gmail.com"/>-->
+    <classes>
+       <class name="test.ResultsPageTesting"/>
+    </classes>
+  </test>
+  
+  <test name="Product Page">    
+    <!-- Lo dejo como ejemplo pa futuro <parameter name="emailid" value="tester789@gmail.com"/>-->
+    <classes>
+       <class name="test.ProductPageTesting"/>
+    </classes>
+  </test>  
+  
+  
+</suite>

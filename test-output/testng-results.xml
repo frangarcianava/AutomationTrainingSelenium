@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-23T10:03:36 ART" name="KC-Amazon" finished-at="2021-06-23T10:03:43 ART" duration-ms="7107">
+    <groups>
+    </groups>
+    <test started-at="2021-06-23T10:03:36 ART" name="Main Page" finished-at="2021-06-23T10:03:39 ART" duration-ms="3133">
+      <class name="test.MainPageTesting">
+        <test-method signature="search()[pri:1, instance:test.MainPageTesting@4229bb3f]" started-at="2021-06-23T10:03:36 ART" name="search" finished-at="2021-06-23T10:03:39 ART" duration-ms="3088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- test.MainPageTesting -->
+    </test> <!-- Main Page -->
+    <test started-at="2021-06-23T10:03:39 ART" name="Results Page" finished-at="2021-06-23T10:03:43 ART" duration-ms="3782">
+      <class name="test.ResultsPageTesting">
+        <test-method signature="clickItem()[pri:1, instance:test.ResultsPageTesting@316bcf94]" started-at="2021-06-23T10:03:39 ART" name="clickItem" finished-at="2021-06-23T10:03:43 ART" duration-ms="3776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickItem -->
+      </class> <!-- test.ResultsPageTesting -->
+    </test> <!-- Results Page -->
+    <test started-at="2021-06-23T10:03:43 ART" name="Product Page" finished-at="2021-06-23T10:03:43 ART" duration-ms="139">
+      <class name="test.ProductPageTesting">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:test.ProductPageTesting@32502377]" started-at="2021-06-23T10:03:32 ART" name="beforeSuite" finished-at="2021-06-23T10:03:36 ART" duration-ms="4078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="addToCart()[pri:1, instance:test.ProductPageTesting@32502377]" started-at="2021-06-23T10:03:43 ART" name="addToCart" finished-at="2021-06-23T10:03:43 ART" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:test.ProductPageTesting@32502377]" started-at="2021-06-23T10:03:43 ART" name="afterSuite" finished-at="2021-06-23T10:03:44 ART" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.ProductPageTesting -->
+    </test> <!-- Product Page -->
+  </suite> <!-- KC-Amazon -->
+</testng-results>
